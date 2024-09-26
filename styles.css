@@ -20,6 +20,11 @@
 .header a{
     display: flex;
     align-items: center;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16,44px;
+    color: #464646;
 }
 
 .icono__nombre{
@@ -49,6 +54,7 @@
  width: 98px;
  height: 98px;
  border-radius: 100%;
+ margin-left: 14px;
 }    
 
 .titulo__nombre{
@@ -57,6 +63,8 @@
     font-size: 22px;
     line-height: 25.83px;
     color: #464646;
+    margin-left: 14px;
+    margin-right: 14px;
 }
 
 .descripcion__nombre{
@@ -65,4 +73,90 @@
     font-size: 14px;
     line-height: 16.44px;
     color: #464646;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
 }
+
+.accesos__directos{
+    display: flex;
+    justify-content:space-around;
+    gap: 8px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
+
+}
+
+.accesos__directos img{
+    width: 16px;
+}
+
+.sobre__mi{
+    width: 360px;
+    height: 350px;
+    background-color: #eaf2fd;
+    margin-top: 10px;
+}
+
+.sobre__mi h3{
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25,83px;
+    padding-left: 14px;
+}
+.sobre__mi p{
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16,44px;
+    margin-top: 10px;
+    padding: 14px;
+}
+
+.skills{
+    background-color: #f5f5f5;
+    width: 360px;
+    height: 508px;
+        
+}
+
+.skills h3{
+    text-align: center;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25,83px;
+    color:#464646
+}
+
+.skills figure { 
+    width: 156px;
+    height: 118px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 8px;
+     
+}
+
+.img__span{
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+img__span figure{
+    margin-bottom: 10px;
+    
+}
+
+.img__span figure img{
+    width: 24px;
+    height: 37px;
+
+}
+
