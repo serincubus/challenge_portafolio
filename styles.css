@@ -139,7 +139,7 @@
     display: flex;
     flex-direction: column;
     padding: 16px;
-    /*gap: 8px;*/
+    gap: 8px;
      
 }
 
@@ -147,21 +147,17 @@
     width: 328px;
     height: 118px;
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 16px;
-    
-}
-
-.img__span{
-    display: flex;
+    /*flex-wrap: wrap;*/
+    /*margin-left: 16px;*/
+    justify-content: space-around;
+    gap: 16px;
+    margin: 16px 16px 0 16px;
     
     
 }
 
-img__span figure{
-    margin-bottom: 10px;
-    
-}
+
+
 
 .img__span figure img{
     width: 24px;
@@ -169,3 +165,10 @@ img__span figure{
 
 }
 
+.img__span figure span{
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18,78px;
+    color: #464646;
+}
