@@ -176,7 +176,7 @@
 .form__academica{
     background-color:#eaf2fd;
     width: 360px;
-    height: 661px;
+    height: 400px;
     padding: 32px;
     gap: 32px;
 }
@@ -192,7 +192,7 @@
 
 .grupo__formaciones{
     width: 296px;
-    height: 539px;
+    height: 339px;
     gap: 16px;
 }
 
@@ -207,4 +207,180 @@
     height: 118px;
     padding: 16px;
     gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso__logo {
+    width: 70px;
+    height: 48px;
+}
+
+.caja__texto__curso{
+    width: 296px;
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+.caja__texto__curso h3{
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+}    
+
+.caja__texto__curso p{
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16,44px;
+}
+
+.exp__profesional{
+    width: 360px;
+    height: 600px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grupo__profesional{
+    width: 296px;
+    height: 260px;
+}
+
+.proyecto{
+    width: 296px;
+    height: 269px;
+}
+
+.contenedor__imagen__encriptador{
+    display: flex;
+    justify-content: center;
+}
+.encriptador{
+    width: 296px;
+    height: 144px;
+}
+
+.caja__texto__proyecto{
+    width: 296px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contenedor__botones{
+    width: 296px;
+    height: 40px;
+    gap: 16px;
+}
+
+.boton__repo{
+    width: 108px;
+    height: 40px;
+    border: 1px solid #2a7ae4;
+    font-family: raleway;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2a7ae4;
+}
+
+.boton__demo{
+    width: 96px;
+    height: 40px;
+    background-color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    font-family: raleway;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.contenedor__contacto{
+    background-color: #eaf2fd;
+    width: 360px;
+    height: 611px;
+}
+
+.contacto__quieres__contact{
+    background-color:#eaf2fd;
+    width: 296px;
+    height: 611px;
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.contacto__quieres__contact h3{
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25,83px;
+    color: #464646;
+}
+
+.contacto__quieres__contact p{
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18,78px;
+    color: #464646;
+}
+
+.contenedor__formulario{
+    width: 296px;
+    height: 397px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input__nombre{
+    width: 296px;
+    height: 56px;
+    border: #eaf2fd 2px solid;
+}
+
+.input__nombre ::placeholder{
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #a2a2a2;
+    top: 0px;
+    left: 0px;
+} 
+
+.input__mensaje{
+    width: 296px;
+    height: 133px;
+    border: #eaf2fd 2px solid;
+}
+
+.boton__enviar{
+    width: 133px;
+    height: 40px;
+    background-color:#2a7ae4;
+    border: #eaf2fd;
+
+}
+
+.boton__enviar p{
+    font-family: raleway;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16,44px;
+    color: #ffffff;
+}
+
+.desarrollado{
+    width: 360px;
+    height: 102px;
 }
