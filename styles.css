@@ -124,6 +124,7 @@ ol, ul, li {
     background-color: #f5f5f5;
     width: 360px;
     height: 508px;
+   
         
 }
 
@@ -147,20 +148,26 @@ ol, ul, li {
      
 }
 
-.div__figure{
+/*.div__figure{
     width: 328px;
     height: 118px;
     display: flex;
-    /*flex-wrap: wrap;*/
-    /*margin-left: 16px;*/
+    flex-wrap: wrap;
+    margin-left: 16px;
     justify-content: space-around;
     gap: 16px;
     margin: 16px 16px 0 16px;
+}*/
     
     
+ 
+
+.img__span{
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-
-
 
 
 .img__span figure img{
@@ -473,5 +480,154 @@ ol, ul, li {
 .contenedor__nombre__descripcion{
     width: 524px;
     height: 130px;
-}   
+}
+
+.sobre__mi{
+    width: 768px;
+    height: 286px;
+    background-color: #eaf2fd;
+    margin-top: 10px;
+}
+
+.skills{
+    background-color: #f5f5f5;
+    width: 768px;
+    height: 390px;
+        
+}
+
+.img__span{
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skills figure { 
+    width: 224px;
+    height: 118px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 8px;
+     
+}
+
+.form__academica{
+    background-color:#eaf2fd;
+    width: 768px;
+    height: 291px;
+    padding: 32px;
+    gap: 32px;
+}
+
+.titulo__form__academica{
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.grupo__formaciones{
+    width: 704px;
+    height: 169px;
+    display: flex;
+    justify-content: center;
+    
+    gap:30px
+
+}
+
+.curso{
+    width: 224px;
+    height: 169px;
+}
+
+.caja__logo__curso{
+    width: 224px;
+    height: 118px;
+}
+
+.exp__profesional{
+    width: 768px;
+    height: 880px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.proyecto{
+    width: 704px;
+    height: 438px;
+}
+
+.grupo__profesional{
+    width: 704px;
+    height: 427px;
+}
+
+.contenedor__imagen__encriptador{
+    width: 704px;
+    height: 320px;
+}
+
+.encriptador{
+    width: 704px;
+    height: 320px;
+}
+
+.contenedor__contacto{
+    width: 768px;
+    height: 637px;
+    
+}
+
+.contacto__quieres__contact{
+    width: 656px;
+    height: 38px;
+}
+
+.contenedor__formulario{
+    width: 704px;
+    height: 397px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input__nombre{
+    width: 704px;
+    height: 56px;
+    border: #eaf2fd 2px solid;
+}
+
+.input__mensaje{
+    width: 704px;
+    height: 133px;
+    border: #eaf2fd 2px solid;
+}
+
+.boton__enviar{
+    width: 133px;
+    height: 40px;
+    background-color:#2a7ae4;
+    border: #eaf2fd;
+
+}
+
+.desarrollado{
+    width: 768px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 }
