@@ -469,4 +469,9 @@ ol, ul, li {
     order: 2;
     
    }  
+
+.contenedor__nombre__descripcion{
+    width: 524px;
+    height: 130px;
+}   
 }
