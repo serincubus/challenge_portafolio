@@ -21,6 +21,11 @@ ol, ul, li {
 
 } 
 
+.navegacion__lista {
+    display: none;
+}
+
+.navegacion__lista 
 .header a{
     display: flex;
     align-items: center;
@@ -628,6 +633,44 @@ ol, ul, li {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+}
+
+@media (min-width: 1440px){
+/* header */
+
+.navegacion__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+/* main */
+
+
+
+.contenedor__perfil{
+    width: 1440px;
+    height: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.foto__perfil{
+    width: 368px;
+    height: 368px;
+
+}
+
+.contenedor__nombre__descripcion{
+    width: 751px;
+    height: 246px;
 }
 
 }
