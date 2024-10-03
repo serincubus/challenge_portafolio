@@ -316,6 +316,11 @@ ol, ul, li {
     flex-direction: column;
     align-items: flex-start;
 }
+
+.caja__texto__proyecto h3{
+
+}
+
 .contenedor__botones{
     width: 296px;
     height: 40px;
@@ -347,6 +352,10 @@ ol, ul, li {
     background-color: #eaf2fd;
     width: 360px;
     height: 611px;
+}
+
+.contenedor__contacto img{
+    display: none;
 }
 
 .contacto__quieres__contact{
@@ -823,4 +832,96 @@ ol, ul, li {
     width: 1440px;
     height: 810px;
 }
+.grupo__profesional{
+    width: 1136px;
+    height: 406px;
+}
+
+.proyecto{
+    width: 1136px;
+    height: 406px;
+    display: flex;
+}
+
+.contenedor__imagen__encriptador{
+    width: 752px;
+    height: 406px;
+}
+
+.caja__texto__proyecto {
+    width: 384px;
+    height: 406px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.caja__texto__proyecto h3{
+      font-family: raleway;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 25.83px;
+      color:#464646;
+}
+
+.caja__texto__proyecto p{
+       font-family: raleway;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 18.78px;
+       color: #464646;
+}
+
+.boton__repo {
+    width: 116px;
+    height: 51px;
+    border: 1px solid #2a7ae4;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2a7ae4;
+}
+
+.boton__demo {
+    width: 105px;
+    height: 51px;
+    background-color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+.contenedor__contacto{
+    width: 1440px;
+    height: 654px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor__contacto img{
+    display: flex;
+    width: 464px;
+    height: 593px;
+
+}
+.contacto__quieres__contact{
+    width: 656px;
+    height: 596px;
+}
+
+/* footer */
+
+.desarrollado {
+    width: 1440px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 }
